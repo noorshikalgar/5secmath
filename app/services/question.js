@@ -1,10 +1,6 @@
 import _ from 'lodash';
 import { parse } from 'mathjs'
 
-// TODO :
-// Final Output ==
-// { question : { numberOne : 45, numberTwo : 65, sign : "+" }, options : [1500, 142, 6544, 854], answer : 1500 }
-
 const operators = ["+", "-", "*", "/"];
 
 // pickRandomNumber()
@@ -46,5 +42,5 @@ const generateOptions = (operator, answer) => {
 
 // checkResult()
 export const checkResult = (answer, value) => answer === value
-// skipQuestion()
+
 
