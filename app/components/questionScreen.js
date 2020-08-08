@@ -60,7 +60,7 @@ export default function QuestionScreen() {
         setScore(score - 5);
         checkScore()
         createQuestion()
-        restart(new Date().setSeconds(new Date().getSeconds() + 60))
+        restart(new Date().setSeconds(new Date().getSeconds() + seconds - 5))
     }
     const gameEnd = () => {
         Alert.alert(
